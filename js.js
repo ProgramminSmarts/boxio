@@ -3,7 +3,7 @@ var villain1 = document.getElementById('v');
 var scoreDisp = document.getElementById('scoreDisp');
 var pWidth = 25;
 var pHeight = 25;
-score = 0;
+var score = 0;
 var foodTop;
 var foodLeft;
 player.style.left = "0px";
@@ -103,6 +103,7 @@ function countScore () {
 }*/
   
 function lose () {
+  console.log("lose");
 }
 
 /*
