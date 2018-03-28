@@ -87,7 +87,7 @@ setInterval(createFood, 1200);*/
 
 //mass gets smaller
 function deplete () {
-  setInterval(deplete, 2000)  
+  setInterval(deplete, 2000);  
   pWidth *= 0.995;
   pHeight *= 0.995;
 }
