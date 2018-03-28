@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+#p {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  left: 0px;
+  background-color: green;
+  border: 2px solid black;
+  z-index: 3;
+}
+#v {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border: 2px solid black;
+  z-index: 3;
+}
+#scoreDisp {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  display: block;
+  width: 95%;
+  text-align: right;
+}
